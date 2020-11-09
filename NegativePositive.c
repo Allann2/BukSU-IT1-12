@@ -5,16 +5,16 @@ int main()
 {
 
     int num;
-    printf("Input a Number:");
+    printf("Enter a number to determine:");
     scanf(" %d", &num);
 
     if (num > 0){
-        printf("Positive");
+        printf("The number you entered is a POSITIVE number");
 
         }
         else{
             printf
-            ("Negative");
+            ("The number you entered is a NEGATIVE number");
 
     }
 
